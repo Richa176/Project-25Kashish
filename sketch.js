@@ -41,8 +41,9 @@ function setup() {
   //ground.display();
   
   image(ball.image,ball.position.x,ball.position.y,70,70);
+	  rect(ground.position.x,ground.position.y-5,1600,10);
   image(dustbasebody.image,dustbasebody.position.x,550,250,300);
-  rect(ground.position.x,ground.position.y-5,1600,10);
+ 
   //drawSprites();
  
 }
