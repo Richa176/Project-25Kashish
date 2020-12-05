@@ -23,7 +23,7 @@ function setup() {
 	 dustbasebody = Bodies.rectangle(dustPos+100, dustY+45-20, 250, 20, {isStatic:true});
 	World.add(world, dustbasebody);
 
-	dustbasebody.image=loadImage("dustbin.png");
+	dustbasebody.image=loadImage("Dustbin.png");
 
 	boxRightbody = Bodies.rectangle(dustPos+200, dustY+45-20, 20, 210, {isStatic:true});
 	World.add(world,boxRightbody);
